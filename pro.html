@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Website</title>
+    <link rel="stylesheet" type="text/css" href="pro.css">
+</head>
+<body>
+    <h1>Empress Your Knowledge</h1>
+    <h2>Welcome to Empress your knowledge library</h2>
+    <h4>Enter a world of imagination and adventure in our library !&#10024;</h4>
+
+    <div class="search-container">
+        <label for="category">Category:</label>
+        <select id="category" onchange="filterBooks()">
+            <option value="all">All</option>
+            <option value="fiction book">Fiction book</option>
+            <option value="nonfiction">Non-Fiction</option>
+            <option value="Children's literature book">Children's literature book</option>
+            <option value="Romantic novel">Romantic novel</option>
+            <option value="Intellectual novel">Intellectual novel</option>
+            <option value="Mystery">Mystery</option>
+        </select>
+    </div>
+    
+    <div id="book-list">
+        <h2>Books</h2>
+        <ul id="book-list-ul"></ul>
+    </div>
+
+    <div id="view-count">
+        <p>View Count: <span id="count">0</span></p>
+    </div>
+
+    <div class="add-book-container">
+        <h2>Add a New Book</h2>
+        <input type="text" id="new-book-name" placeholder="Name">
+        <input type="text" id="new-book-author" placeholder="Author">
+        <input type="text" id="new-book-year" placeholder="Year">
+        <input type="text" id="new-book-description" placeholder="Description">
+        <input type="text" id="new-book-category" placeholder="Category">
+        <input type="text" id="new-book-cover" placeholder="Cover photo URL">
+        <button onclick="addNewBook()">Add Book</button>
+    </div>
+    
+    <div class="remove-book-container">
+        <h2>Remove a Book</h2>
+        <input type="text" id="remove-book-name" placeholder="Name">
+        <button onclick="removeBook()">Remove Book</button>
+    </div>
+
+    <div class="change-status-container">
+        <h2>Change Status</h2>
+        <input type="text" id="change-status-name" placeholder="Name">
+        <select id="change-status">
+            <option value="New">New</option>
+            <option value="Read">Read</option>
+        </select>
+        <button onclick="changeBookStatus()">Change Status</button>
+    </div>
+
+    <script src="pro.js"></script>
+</body>
+</html>

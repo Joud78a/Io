@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #3b1616;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #b98443;
+}
+
+p1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #e3dbd1;
+}
+
+h1 {
+    background-image: url("library.jpg");
+    color: #e3dbd1;
+    padding: 100px;
+    margin: auto;
+    font-size: 75px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #e3dbd1;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e3dbd1;
+    font-size: 20px;
+}
+
+h4 { 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #e3dbd1;font-size: 15px;  
+} 
+
+.search-container {
+    margin-top: 20px;
+    color: #e3dbd1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.book {
+    border: 2px solid #f2f2f2;
+    padding: 5px; 
+    margin: 5px;
+    display: inline-block;
+    width: 200px;
+    list-style: none; 
+}
+
+.add-book-container, .remove-book-container, .change-status-container {
+    margin-top: 20px;
+    color: #e3dbd1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+bookList {  font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #e3dbd1;font-size: 15px;  
+
+};
